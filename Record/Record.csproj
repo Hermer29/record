@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-Watcher-BCE6A91A-82D0-452B-90F9-5E0FF8D25491</UserSecretsId>
+        <AssemblyName>Record</AssemblyName>
+        <RootNamespace>Record</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="LangChain" Version="0.10.0" />
+        <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.0-rc.1.23419.6" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+        <PackageReference Include="SQLite" Version="3.13.0" />
+        <PackageReference Include="Telegram.Bot" Version="19.0.0" />
+        <PackageReference Include="Telegram.Bots.Extensions.Polling" Version="5.9.0" />
+    </ItemGroup>
+</Project>
